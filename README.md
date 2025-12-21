@@ -1,2 +1,2 @@
 # PiDmxDevice
-DMX512 Slave Device Raspberry Pi based
+DMX512 Raspberry Pi based Slave Device 
