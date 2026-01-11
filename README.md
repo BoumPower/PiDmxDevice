@@ -9,11 +9,11 @@ Carte esclave galvaniquement isolée pour réaliser un élément de scène "mais
   - moteurs assrvi par une carte externe (I2C)
 - relais électro-mécanique par une carte externe (I2C)
 
-Le faible coût des boards Raspberry et la facilité de programmer, en Python par exemple, permettent de réaliser rapidement des éléments de scènes particuliers.
+Le faible coût des boards Raspberry (Arduino, STM32, ATmega, ...) et la facilité de programmer, en Python par exemple, permettent de réaliser rapidement des éléments de scènes particuliers.
 - pas de routines critiques temporellement pour gérer 
   - DMX : 512 registres décodés par hardware et accessible en lecture par bus I2C
   - LEDs : 3600 bytes de RAM accessible I2C et gestion des LEDs par hardware spécialisé (fréquence de rafraichissement 27 Hz)
-  - PWM hardware (Raspberry uniquement)
+  - PWM : hardware (Raspberry uniquement)
 ### DMX
 - full DMX512 isolé
 - résistance 120 ohm de terminaison
