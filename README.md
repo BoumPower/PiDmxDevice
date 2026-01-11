@@ -26,6 +26,7 @@ Cette carte peut être pilotée par une grande variété de micro-contrôleurs, 
 - connecteur I2C Qwiic pour Arduino, STM32, ATmega, ...
 ### Sortie jusqu'à 1200 LEDs
 – WS2811, WS2812 / WS2812B / WS2812C, WS2813, WS2815, NeoPixel, SK6812, GS8208
+
 – toutes sequences: GRB, RGB, etc.
 – LEDs avec 3, 4, couleurs ou plus: GRBW, RGBW, RGBWC (LEDs avec warm and cold blanc)
 - fréquence de rafraichissement 27 Hz
